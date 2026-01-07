@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ar</title>
+  </head>
+  <body>
+    <div id="app">
+      <video class="input_video" style="display: none;"></video>
+      <canvas class="output_canvas"></canvas>
+      <div id="ui-layer">
+        <div class="score-container">
+          <div class="score-p1">P1: <span id="p1-score">0</span></div>
+          <div class="score-p2">P2: <span id="p2-score">0</span></div>
+          <div class="score-p3">P3: <span id="p3-score">0</span></div>
+          <div class="score-p4">P4: <span id="p4-score">0</span></div>
+        </div>
+        <div id="game-status">TOUCH TO START</div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
